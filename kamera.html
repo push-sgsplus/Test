@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+       "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>Kameras</title>
+<script type="text/javascript" src="jwplayer/swfobject.js"></script>
+<script type='text/javascript' src='jwplayer/jwplayer.js'></script>
+</head>
+<body bgcolor="#ffffff" text="#000000" link="#A00000" vlink="#600000" alink="#A00000">
+<h1><center>Kontrollmonitore</center></h1>
+<table align="center" border="0" cellspacing="3" cellpadding="3" width="10%">
+  <tr>
+ <td><div id="mediaspace3">This text will be replaced</div></td> 
+ <td><img src="hema.jpg" width="250" alt="He-Ma Logo"></td>
+ <td><div id="mediaspace4">This text will be replaced</div></td>
+ </tr>
+ </table>
+<script type='text/javascript'>
+     jwplayer('mediaspace3').setup({
+    'flashplayer': 'jwplayer/player.swf',
+    'file': 'iffezheim1.stream',
+    'streamer': 'rtmp://84.19.176.161/live',
+    'controlbar': 'none',
+    'autostart': 'true',
+    'width': '310',
+    'height': '210'
+  });
+  jwplayer('mediaspace4').setup({
+    'flashplayer': 'jwplayer/player.swf',
+    'file': 'iffezheim.stream',
+    'streamer': 'rtmp://84.19.176.161/live',
+    'controlbar': 'none',
+    'autostart': 'true',
+    'width': '310',
+    'height': '210'
+  });
+</script>
+<center>
+<br>
+<br>
+
+<a href="setup.php" target="_top">Einstellungen</a>
+
+</center>
+</body>
+</html>
